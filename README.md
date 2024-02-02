@@ -53,7 +53,7 @@ python3 Visable_coding_challenge.py
 * Also, there is a docker image for testing the API, you can run it using this command:
 
 ```bash
-docker run -d --name yourcontainername -p 8000:8000 visable_german
+docker run -d --name api -p 8000:8000 visable_german
 ```
 
 * This drive Link has essential models and checkpoints for the deployment to run as they are larger than the github limit, especially, '**fine_tuned_german_bert**' folder:
