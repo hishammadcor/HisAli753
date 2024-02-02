@@ -56,7 +56,7 @@ python3 Visable_coding_challenge.py
 docker run -d --name yourcontainername -p 8000:8000 visable_german
 ```
 
-* This drive Link has essential models and checkpoints for the deployment to run as they are larger than the github limit, especially, '**fine_tuned_german_bert**' folder and **dockar image in .tar**:
+* This drive Link has essential models and checkpoints for the deployment to run as they are larger than the github limit, especially, '**fine_tuned_german_bert**' folder:
   * link>> https://drive.google.com/drive/folders/1sO0i3lIITBa1wlMQYhm-LRokjhm-R799?usp=sharing
 
 
