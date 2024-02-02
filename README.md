@@ -24,17 +24,19 @@ I used TF-IDF as a feature extractor. I used it as it's known for its good resul
 
 * First, I used the Multinominal Naive Bayes model. I always take the simplest way to do the tasks, and then complex as we move. Naive Bayes is known for its good results in classification tasks and provides good results. As seen in the photo below.
 
-![image](https://github.com/hishammadcor/HisAli753/assets/32823502/4ee9f607-351c-4491-945e-ca404b98dbf0)
+![image](https://github.com/hishammadcor/HisAli753/assets/32823502/220f7943-b8b4-487c-b9d5-b32f0b7be676)
 
 
 * But, I wanted to increase the accuracy of the model, so I moved to the Random Forest classifier, it gives higher results than Naive Bayes, as seen from the photo below.
 
-![image](https://github.com/hishammadcor/HisAli753/assets/32823502/730b4550-a3d0-47c8-a4fc-f689a8bc8f6c)
+![image](https://github.com/hishammadcor/HisAli753/assets/32823502/a965972c-260d-455a-bae8-eb3742ebfdfd)
+
 
 
 * But then I got the idea of Fine-tuning the BERT German Base model on the dataset and then using its embeddings on the Random Forest classifier. That's what I have done and it gets higher results as expected from the photo below.
 
-![image](https://github.com/hishammadcor/HisAli753/assets/32823502/86dce947-ed74-44d9-8ae6-67699fdbf710)
+![image](https://github.com/hishammadcor/HisAli753/assets/32823502/d1e2b536-c0f4-4c29-824e-e8a370ceb163)
+
 
 
 # Setup
